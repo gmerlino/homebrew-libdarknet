@@ -3,8 +3,8 @@ class Libdarknet < Formula
   homepage "http://pjreddie.com/darknet/"
   head "https://github.com/OrKoN/darknet.git"
 
-  depends_on "pkg-config"
   depends_on "opencv@2" => :build
+  depends_on "pkg-config"
 
   patch :DATA
 
